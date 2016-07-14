@@ -1,0 +1,341 @@
+@media (max-width: 768px) {
+
+  .container {
+    max-width: 720px;
+    padding-left: 10px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .features, .newapp, .screenshots, .support, .newsletter, .blog {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .main-header {
+    padding-top: 20px;
+    padding-bottom: 110px;
+  }
+
+  .nav-toggle {
+    display: block;
+    position: relative;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border: 4px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .nav-toggle span {
+    display: block;
+    position: absolute;
+    top: 23px;
+    left: 10px;
+    right: 10px;
+    height: 4px;
+    background: white;
+  }
+  .nav-toggle span:before, .nav-toggle span:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: white;
+  }
+
+  .nav-toggle span:before {
+    top: -15px;
+  }
+  .nav-toggle span:after {
+    bottom: -15px;
+  }
+
+  .main-nav {
+    display: none;
+    position: absolute;
+    right: 0%;
+    top: 90px;
+    width: 300px;
+    margin-right: 30px;
+    padding-top: 5px;
+  }
+
+  .main-nav.active {
+    display: block;
+  }
+
+  .main-nav ul {
+  border: 4px solid white;
+  border-radius: 5px;
+  }
+
+  .main-nav li {
+    margin-left: 35px;
+    padding: 12px 0;
+    width: 100px;
+  }
+
+  .main-nav li:hover {
+    background: none;
+  }
+
+  .header-top {
+    margin-bottom: 170px;
+  }
+
+  .promo {
+    padding-left: 0;
+  }
+
+  .promo-picture {
+    left: 350px;
+    top: -30px;
+    opacity: 0.4;
+  }
+
+  .promo-picture img {
+    width: 370px;
+  }
+
+  .promo-title, .promo p, .promo h2, .promo a {
+    position: relative;
+    z-index: 10;
+  }
+
+  .promo h2 {
+    margin-top: 90px;
+    margin-bottom: 54px;
+  }
+
+  .features p {
+    margin-bottom: 30px;
+  }
+
+  .feature {
+    margin-right: 15px;
+    margin-top: 30px;
+  }
+
+  .new {
+    padding-left: 90px;
+    width: 100%;
+  }
+
+  .newapp h1, .screenshots h1, .blog h1 {
+    margin-bottom: 70px;
+  }
+
+  .newapp .container:after {
+    background-image: none;
+  }
+
+  .screenshots ul{
+    padding-left: 50px;
+  }
+
+  .screenshots li {
+    margin-bottom: 10px;
+  }
+
+  .quote {
+    padding-top: 70px;
+  }
+
+  .newsletter p, .communicate p, .copyright {
+    width: 100%;
+  }
+
+  .newsletter form {
+    position: relative;
+    margin: 0 auto;
+    width: 480px;
+  }
+
+  .newsletter input {
+    width: 480px;
+    margin-bottom: 20px;
+  }
+
+  .blog-entry {
+    width: 480px;
+  }
+
+  .footer-social a:hover {
+  	background: none;
+  }
+
+  .communicate {
+    padding-top: 70px;
+  }
+
+  .copyright {
+    width: 470px;
+  }
+
+}
+
+@media (max-width:1095px) {
+  .newapp .container:after {
+      z-index: -1;
+  }
+}
+
+@media (max-width: 480px) {
+
+.container {
+  max-width: 420px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.main-header {
+  padding-bottom: 50px;
+}
+
+.header-top {
+  margin-bottom: 60px;
+}
+
+.main-nav {
+  right: 0;
+  top: 100px;
+  width: 150px;
+  padding-top: 5px;
+  z-index: 100;
+}
+
+.main-nav ul {
+  padding: 0 20px;
+}
+
+.main-nav li {
+  margin-left: 0;
+  padding: 12px 0;
+}
+
+.promo-title {
+  font-size: 50px;
+  margin-bottom: 40px;
+  width: 250px;
+}
+
+.promo-picture {
+  display: none;
+}
+
+.promo h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.promo a {
+  margin-bottom: 20px;
+}
+
+.features, .newapp, .screenshots, .support, .newsletter, .blog {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.feature {
+  margin-right: 0px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.new {
+  position: relative;
+  margin-bottom: 36px;
+  padding-left: 0px;
+  width: 100%;
+}
+
+.newapp .fa {
+  display: none;
+}
+
+.screenshots ul {
+  padding-left: 80px;
+}
+
+.quote .photo {
+  float: none;
+  margin: 0 auto 20px;
+}
+
+.quote .cite {
+  padding-left: 30px;
+}
+
+.support-info {
+  font-size: 20px;
+}
+
+.support-member {
+  width: 460px;
+}
+
+.support-member.pic-right {
+  padding: 35px 280px 35px 0px;
+}
+
+.support-member.pic-left {
+  padding: 0px 30px 35px 210px;
+}
+
+.pic-left .support-member-photo {
+  left: 0px;
+}
+
+.support-member.pic-left::after {
+  left: -4px;
+}
+
+.newsletter form {
+  width: 450px;
+  }
+
+.blog-entry {
+  width: 420px;
+}
+
+.communicate li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.communicate li:last-child {
+  margin-bottom: 0px;
+}
+
+.communicate .comment {
+  display: block;
+}
+
+.communicate  {
+  padding-top: 50px;
+}
+
+.communicate button {
+  position: relative;
+  margin: 0 0 50px 0;
+  width: 100%;
+  left: 0px;  
+}
+
+.copyright {
+  width: 420px;
+ }
+
+}
