@@ -1,0 +1,308 @@
+@media (max-width: 1500px) {
+	.promo .promo-text {    
+	    top: 10px;
+        width: 360px;
+    }
+
+    .promo .promo-title,.promo .promo-logo,.promo .promo-slogan, .promo .btn {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+	.main-menu li {
+        padding: 17px;
+    }
+
+    .container {
+      max-width: 960px;
+    }
+
+	.advantages .article-content .btn {
+        position: relative;
+    }
+
+    .promo .promo-text {
+        position: relative;
+        width: 100%;    	
+    }
+
+    .promo .promo-text div {    	
+        display: inline-block;
+        margin-bottom: 0;
+    }
+
+    .promo .promo-title {
+        margin-right: 30px;    	
+    }
+
+    .promo .btn {
+        position: absolute;
+        top: -200px;
+        left: 30px;
+        margin: 0;
+        padding: 15px 30px 15px 20px;
+        font-size: 16px;
+        width: 200px;
+    }
+
+    .promo .btn::after {
+        right: 15px;
+        width: 8px;
+        height: 8px;
+        margin-top: -5px;
+    }
+
+    #promo-slider-controls {
+        margin-left: -250px;
+    }
+
+    .advantages .container {
+       padding-left: 0;
+    }
+
+    .advantages .article-picture {
+       margin-right: 20px;
+       margin-bottom: 20px;
+       width: 370px;
+       height: 570px;
+    }
+
+    .hot-offers .hot-item {
+    	margin-right: 45px;
+    	margin-bottom: 45px;
+    }
+
+    .hot-offers .hot-item:nth-child(2) {
+        top: 0px;
+        width: 370px;
+    }
+
+    .hot-offers .hot-item:nth-child(2) > .article-picture {
+        margin: 0;
+    }
+
+    .hot-offers .hot-item:nth-child(2) h1 {
+        text-align: left; 
+    }
+
+    .hot-offers .hot-item:nth-child(2) .btn {
+        margin-left: 0;
+    }
+
+    .catalog .item:first-child {
+    	margin-bottom: 45px;
+    }
+
+    .useful-information .container article {
+    	float: none;
+    	margin-bottom: 35px;
+    	width: 100%;
+    }
+
+    .useful-information .be-designer {
+        padding: 45px 20px 55px;
+    }
+
+    .be-designer .article-picture {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 35px;
+    }
+
+    .useful-information .inspiration {
+        position: relative;
+        padding: 45px 20px 55px;
+    }
+
+    .useful-information .inspiration h1 {
+        position: relative;
+        top: 0;
+    }
+
+    .inspiration .article-picture {
+    	float: right;
+        position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 380px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+	.main-header .details .left-col, .main-header .details .right-col {
+		float: none;
+	}
+
+	.main-header .details .left-col {
+		margin-bottom: 20px;
+	}
+
+    .container {
+        max-width: 730px;
+    }
+
+	.main-menu li {
+        padding: 12px;
+    }
+
+    #promo-slider-controls {
+     	display: none;
+    }
+
+    .about-us .article-picture {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+	.advantages .article-picture {
+        margin-right: 10px;
+    }
+
+    .hot-offers .hot-item:last-child {
+    	margin-bottom: 0;
+    }
+
+    .catalog .item {
+    	margin-bottom: 45px;
+    }
+
+    .catalog .item:last-child {
+    	margin-bottom: 0;
+    }
+
+    #review-slider {
+       width: 620px;
+  }
+
+}
+
+@media (max-width: 640px) {
+
+	.promo .btn {
+	    left: 10px;
+	    top: -170px;
+    }
+
+    .inspiration .article-picture {
+     	float: none;
+     	margin-left: 0;
+     	margin-bottom: 20px;
+     }
+
+}
+
+@media (max-width: 480px) {
+
+	.container {
+        max-width: 420px;
+    }
+
+	.main-header .right-col .social {
+		display: none;
+	}
+
+	.main-header .phone-us,.main-header .basket {
+		float: left;
+	}
+
+	#nav-toggle {
+	    float: right;
+	    display: block;
+        position: relative;
+        top: -10px;
+        padding: 0;    
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        border: 2px solid #222;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #nav-toggle span {
+        display: block;
+        position: absolute;
+        top: 16px;
+        left: 5px;
+        right: 5px;
+        height: 2px;
+        background: #222;
+    }
+    #nav-toggle span:before, #nav-toggle span:after {
+        content: "";
+        position: absolute;
+        display: block;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: #222;
+    }
+
+    #nav-toggle span:before {
+        top: -8px;
+    }
+
+    #nav-toggle span:after {
+        bottom: -8px;
+    }
+
+	.main-menu {
+		display: none;
+	}
+
+	.main-menu li {
+        padding: 8px;
+    }
+
+	.promo .promo-text {
+		padding-top: 70px;
+	}
+
+	.promo .promo-text div {    	
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .promo .btn {
+	    left: 50%;
+	    margin-left: -100px;
+	    top: 0px;
+    }
+
+    .about-us .article-picture {
+    	float: none;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+     #review-slider {
+        width: 420px;
+    }
+
+    .be-designer .article-picture {
+    	width: 100%;
+    }
+
+    .main-footer .contacts > div > div {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+    .main-footer .write-us, .main-footer .our-phones {
+    	text-align: center;
+    }
+
+    .main-footer .our-phones {
+    	padding-left: 0;
+    }
+
+
+}

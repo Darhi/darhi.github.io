@@ -1,0 +1,858 @@
+  *   {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family: 'HelveticaNeue';
+    src: url(../fonts/HelveticaNeueCyr-Light.otf) format("opentype");
+    font-weight: 100;
+  }
+
+  @font-face {
+    font-family: 'HelveticaNeue';
+    src: url(../fonts/HelveticaNeueCyr-Medium.otf) format("opentype");
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'HelveticaNeue';
+    src: url(../fonts/HelveticaNeueCyr-Bold.otf) format("opentype");
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: 'HelveticaNeue';
+    src: url(../fonts/HelveticaNeueCyr-Italic.otf) format("opentype");
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'HelveticaNeueRoman';
+    src: url(../fonts/HelveticaNeueCyr-Roman.otf) format("opentype");
+  }
+
+  @font-face {
+    font-family: 'AizelAccent';
+    src: url(../fonts/Aizel-Accent.otf) format("opentype");
+  }
+
+  @font-face {
+    font-family: 'AizelAccent';
+    src: url(../fonts/Aizel-Accent-Italic.otf) format("opentype");
+    font-style: italic;
+  }
+
+  body {
+    font-family: 'HelveticaNeue';
+    font-size: 16px;
+    font-weight: 100;
+    color: #222;
+  }
+
+  p {
+    margin-bottom: 25px;
+    font-family: 'HelveticaNeue';
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 23px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .left-col {
+    float: left;
+  }
+
+  .right-col {
+    float: right;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .bold {
+    font-weight: 700;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+  .btn {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .btn:visited {
+    color: inherit;
+  }
+
+  .btn::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 22px;
+    width: 10px;
+    height: 10px;
+    margin-top: -5px;
+    border: 2px solid #222;
+    border-left: none;
+    border-bottom: none;
+    transform: rotate(45deg);
+  }
+
+  .btn-1 {
+    background: transparent;
+    border: 2px solid #222;
+    padding: 15px 40px 15px 15px;
+    font-weight: 400;
+    color: #222;
+  }
+
+  .btn-1::after {
+    width: 6px;
+    height: 6px;
+    margin-top: -4px;
+  }
+
+  .btn-2 {
+    padding: 0 30px 10px 3px;
+    background: transparent;
+    border-bottom: 2px solid #222;
+    font-family: 'HelveticaNeueRoman';
+    font-size: 15px;
+  }
+
+  .btn-2::after {
+    right: 0;
+    top: 10px;
+    width: 5px;
+    height: 5px;
+  }
+
+  h1 {
+    margin-bottom: 25px;
+    font-family: 'AizelAccent';
+    font-size: 35px;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+
+  .article-picture {
+    overflow: hidden;
+  }
+
+  .main-header .left-col > div, .main-header .right-col > div {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .main-header .top {
+    margin-bottom: 30px;
+    padding: 10px 0;
+    background: #222;
+  }
+
+  .main-header .top a {
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .main-header .top form {
+    position: relative;
+  }
+
+  .main-header .top form::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    background: url(../images/search-icon.png);
+  }
+
+  .main-header .top input {
+    width: 250px;
+    padding-left: 20px;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+  }
+
+  .main-header .our-name {
+    padding-left: 35px;
+    font-family: 'HelveticaNeueRoman';
+    font-size: 16px;
+    color: #000;
+  }
+
+  .main-header .right-col > div {
+    padding: 0 26px;
+  }
+
+  .main-header .social {
+    font-size: 14px;
+    color: #999898;
+  }
+
+  .main-header .social > div {
+    margin-bottom: 8px;
+  }
+
+  .main-header .social a {
+    display: block;
+    float: left;
+    height: 20px;
+    background: url(../images/social-xs.png);
+    font-size: 0;
+  }
+
+  .main-header .social .vk {
+    width: 24px;
+  }
+
+  .main-header .social .fb {
+    width: 28px;
+    background-position: -24px 0;
+  }
+
+  .main-header .social .inst {
+    width: 25px;
+    background-position: -54px 0;
+  }
+
+  .main-header .social .youtube {
+    width: 50px;
+    background-position: -82px 0;
+  }
+
+  .main-header .right-col .phone-us {
+    position: relative;
+    padding-left: 52px;
+    font-family: 'HelveticaNeueRoman';
+    font-size: 16px;
+   }
+
+  .main-header .phone-us > div {
+    margin-bottom: 5px;
+  }
+
+  .main-header .phone-us a {
+    font-family: 'HelveticaNeueRoman';
+    font-size: 14px;
+    border-bottom: 2px dotted #eb2121;
+    color: #eb2121;
+  }
+
+  .main-header .phone-us::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 22px;
+    margin-top: -9px;
+    width: 18px;
+    height: 18px;
+    background: url(../images/phone-icon.png);
+  }
+
+  .main-header .right-col .basket {
+    padding-right: 0;
+  }
+
+  .main-header .right-col .basket > div {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .main-header .basket-img {
+    position: relative;
+    margin-right: 10px;
+  }
+
+  .main-header .nav-toggle {
+    display: none;
+  }
+
+  #number-of-orders {
+    position: absolute;
+    top: -3px;
+    left: 13px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #000;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+  }
+
+  .main-header .basket a {
+    font-family: 'HelveticaNeueRoman';
+    font-size: 14px;
+    color: #999898;
+  }
+
+  .main-header .details {
+    margin-bottom: 25px;
+  }
+
+  .main-menu {
+    background: #222;
+    text-align: center;
+  }
+
+  .main-menu li {
+    display: inline-block;
+    padding: 15px 52px;
+    border-right: 1px solid #656565;
+  }
+
+  .main-menu li:last-child {
+    border-right: none;
+  }
+
+  .main-menu a {
+    font-family: 'HelveticaNeueRoman';
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .promo {
+    position: relative;
+    margin-bottom: 60px;
+  }
+
+  .promo .promo-text {    
+    position: absolute;
+    top: 80px;
+    width: 325px;
+    text-align: center;
+  }
+
+  .promo .promo-title {
+    margin-bottom: 35px;
+    font-family: 'EB Garamond', serif;
+    font-size: 64px;
+  }
+
+  .promo-text .promo-logo {
+    margin-bottom: 35px;
+  }
+
+  .promo .promo-slogan {
+    margin-bottom: 41px;
+    font-family: 'EB Garamond', serif;
+    font-size: 23px;
+    text-transform: uppercase;
+    line-height: 40px;
+  }
+
+  .promo .btn {
+    width: 80%;
+    margin: 0 auto 65px;
+    padding: 15px 44px 15px 25px;
+    font-size: 21px;
+  }
+
+  .promo .btn::after {
+    right: 22px;
+    width: 10px;
+    height: 10px;
+    margin-top: -5px;
+  }
+
+  #promo-slider {
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  #promo-slider img {
+    width: 100%;
+  }
+
+  #promo-slider-controls {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -473px;
+  }
+
+  #promo-slider-controls li {
+    display: inline-block;
+    margin-right: 10px;
+    width: 13px;
+    height: 13px;
+    background: transparent;
+    border: 2px solid #222;
+    border-radius: 50%;
+    transition: background 0.5s;
+  }
+
+  #promo-slider-controls li:hover,  #promo-slider-controls li.current {
+    background: #222;
+    cursor: pointer;
+  }
+
+  .about-us {
+    margin-bottom: 88px;
+  }
+
+  .about-us .article-content {
+    padding-top: 30px;
+  }
+
+  .about-us .article-picture {
+    margin-left: 45px;
+    width: 348px;
+    height: 348px;
+  }
+
+  .advantages {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+  }
+
+  .advantages .container {
+    padding-left: 50px;
+  }
+
+  .advantages .article-picture {
+    margin-right: 50px;    
+    width: 445px;
+    height: 570px;
+  }
+
+  .advantages .article-content {
+    position: relative;
+  }
+
+  .advantages .article-content p span {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .advantages .article-content .btn {
+    position: absolute;
+    right: 0;
+    bottom: -23px;
+    font-size: 15px;
+  }
+
+  .hot-offers {
+    margin-bottom: 115px;
+  }
+
+  .hot-offers .container {
+    position: relative;
+  }
+
+  .hot-offers .hot-item {
+    position: relative;
+    width: 370px;
+    overflow: hidden;
+  }
+
+  .hot-offers .hot-item .article-picture {
+    position: relative;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 500px;
+  }
+
+  .hot-offers .hot-item:nth-child(2) {
+    top: 70px;
+    width: 460px;
+  }
+
+  .hot-offers .hot-item:nth-child(2) > .article-picture {
+   width: 370px;
+   margin: 0 auto 25px;
+  }
+
+  .hot-offers .hot-item:nth-child(2) h1 {
+    text-align: center; 
+  }
+
+  .hot-offers .hot-item:nth-child(2) .btn {
+    margin-left: 45px;
+  }
+
+  .discount-inf {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+    width: 135px;
+    height: 65px;
+    padding: 5px 0;
+    background-color: #ee3324;
+    color: #fff;
+    font-family: 'HelveticaNeueRoman';
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .discount-inf .percents > div {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'HelveticaNeue';
+    font-size: 20px;
+  }
+
+  .discount-inf .percents span {
+    font-size: 43px;
+    line-height: 40px;
+  }
+
+  .catalog {
+    margin-bottom: 85px;
+  }
+
+  .catalog h1 {
+    margin-bottom: 45px;
+  }
+
+  .catalog .item-row {
+    margin-bottom: 55px;
+  }
+
+  .catalog .item-row:last-child {
+    margin-bottom: 50px;
+  }
+
+  .catalog .item {
+    position: relative;
+    margin-right: 45px;
+    width: 370px;
+  }
+
+  .catalog .item:last-child {
+    margin-right: 0;
+  }
+
+  .catalog .item .article-picture {
+    margin: 0 auto 20px;
+    width: 355px;
+    height: 405px;
+  }
+
+  .catalog .item .item-title {
+    margin-bottom: 8px;
+  }
+
+  .catalog .item .item-description {
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-style: italic;
+    color: #c2c0bd;
+    line-height: 23px;
+  }
+
+  .catalog .item .price {
+    font-weight: 400;
+  }
+
+  .catalog .item .price span {
+    font-family: 'HelveticaNeueRoman';
+    font-size: 32px;
+  }
+
+  .catalog .item .make-order {
+    padding: 10px 0px 3px 0;
+    border-bottom: 2px dotted #222;
+    font-family: 'HelveticaNeueRoman';
+    font-size: 15px;
+    background: transparent;
+    transition: all 0.2s;
+  }
+
+  .catalog .item .order .make-order:hover {
+    padding: 10px 20px;
+    background-color: #222;    
+    color: #fff;
+    border: none;
+  }
+
+  .catalog .btn {
+    display: block;
+    margin: 0 auto;
+    width: 180px;
+    font-size: 15px;
+  }
+
+  .useful-information {
+    margin-bottom: 60px;
+  }
+
+  .useful-information article {
+    border: 9px solid #ebebeb;
+  }
+
+  .useful-information .be-designer {
+    position: relative;
+    width: 49%;
+    padding: 430px 60px 50px 40px;
+  }
+
+  .be-designer .article-picture {
+    position: absolute;
+    left: 40px;
+    top: -50px;
+    width: 415px;
+    height: 415px;
+  }
+
+  .useful-information .where-to-use {
+    margin-bottom: 50px;
+    width: 49%;
+    padding: 45px 45px 55px 20px;
+    background: url(../images/corset-background.png) no-repeat 100% 100%;
+  }
+
+  .useful-information .inspiration {
+    position: relative;
+    padding: 40px 485px 25px 25px;
+  }
+
+  .inspiration .article-picture {
+    position: absolute;
+    right: 30px;
+    top: -20px;
+    bottom:-20px;
+    width: 425px;
+  }
+
+  .useful-information .inspiration h1 {
+    position: absolute;
+    top: -95px;
+  }
+
+  .reviews {
+    padding-bottom: 60px;
+  }
+
+  .reviews .container {
+    position: relative;
+  }
+
+  #review-slider {
+    margin: 0 auto;
+    width: 695px;
+  }
+
+  .review {
+    text-align: center;
+  }
+
+  .review-photo {
+    margin: 0 auto 30px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .review-name {
+    margin-bottom: 40px;
+    font-family: 'HelveticaNeueRoman';
+    font-size: 20px;
+  }
+
+  #prev-review, #next-review {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 36px;
+    margin-top: -22px;
+    cursor: pointer;
+  }
+
+  #prev-review {
+    left: 0;
+  }
+
+  #next-review {
+    right: 0;
+  }
+
+  #prev-review::before, #prev-review::after, #next-review::before, #next-review::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 2px;
+    background: #222;
+  }
+
+  #prev-review::before {
+    transform: rotate(-50deg);
+    margin-top: 9px;
+  }
+
+  #prev-review::after {
+    transform: rotate(50deg);
+    margin-top: 27px;
+  }
+
+  #next-review::before {
+    transform: rotate(50deg);
+    margin-top: 9px;
+  }
+
+  #next-review::after {
+    transform: rotate(-50deg);
+    margin-top: 27px;
+  }
+
+  #review-slider-contols {
+    text-align: center;
+  }
+
+  #review-slider-contols li {
+    display: inline-block;
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    background-color: #e1e1e1;
+    border-radius: 50%
+  }
+
+  #review-slider-contols li:last-child {
+    margin-right: 0;
+  }
+
+  #review-slider-contols li.current {
+    background-color: #222;
+  }
+
+  .main-footer .main-menu {
+    margin-bottom: 35px;
+  }
+
+  .main-footer .contacts {
+    margin-bottom: 25px;
+  }
+
+  .main-footer .contacts > div > div {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .main-footer .write-us {
+    width: 25%;
+  }
+
+  .main-footer .write-us p {
+    font-size: 14px;
+  }
+
+  .main-footer .write-us span {
+    font-size: 16px;
+  }
+
+  .main-footer .social {
+    margin-left: -5px;
+    width: 50%;
+    text-align: center;
+  }
+
+  .main-footer .social p {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .main-footer .social a {
+    display: block;
+    float: left;
+    height: 27px;
+    background: url(../images/social-lg.png);
+    font-size: 0;
+  }
+
+  .main-footer .social-links {
+    width: 185px;
+    margin: 0 auto 30px;
+  }
+
+  .main-footer .social .vk {
+    width: 45px;
+  }
+
+  .main-footer .social .fb {
+    width: 35px;
+    background-position: -45px 0;
+  }
+
+  .main-footer .social .inst {
+    width: 40px;
+    background-position: -80px 0;
+  }
+
+  .main-footer .social .youtube {
+    width: 62px;
+    background-position: -120px 0;
+  }
+
+  .main-footer .copyright {
+    font-size: 14px;
+    color: #999898;
+  }
+
+  .main-footer .our-phones {
+    margin-left: -5px;
+    padding-left: 60px;
+    width: 25%;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .main-footer .our-phones img {
+    margin-bottom: 8px;
+  }
+
+  .footer-bottom {
+    background: #222;
+    font-size: 14px;
+    color: #999898;
+    text-align: center;
+    line-height: 40px;
+  }
