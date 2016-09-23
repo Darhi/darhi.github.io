@@ -1,0 +1,1433 @@
+@media (max-width: 1500px) {
+
+    .promo-text {    
+	    top: 10px;
+        width: 360px;
+    }
+
+    .promo-title, .promo-logo, .promo-slogan, .promo .btn {
+        margin-bottom: 20px;
+    }
+
+    .my-corsets-better .header-picture {
+        margin-bottom: 35px;
+    }
+
+    .components {
+    	padding-top: 15px;
+    }
+
+    .components .article-title-picture {
+        position: relative;
+        top: 0;
+        margin-bottom: 35px;
+    }
+
+    .components .article-title-picture img {
+    	width: 100%;
+    }
+
+    .components h1 {
+        margin-bottom: 35px;
+    }
+
+
+    #catalog-fabric-section .be-designer-title-image {
+        margin-bottom: 35px;
+    }
+
+
+    #catalog-fabric-section .be-designer-title-image img {
+        margin-bottom: 35px;
+    }
+
+    #catalog-fabric-section .type-of-corset {
+        width: 30%;
+        margin-right: 3%;
+    }
+
+    #catalog-fabric-section .types-of-corset  img {
+        width: 50%;
+    }
+
+
+    #catalog-section .sertificate {
+        margin-bottom: 35px;
+    }
+
+}
+
+@media (max-width: 1280px) {
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .main-menu li {
+        padding: 15px 35px;
+    }
+
+
+    .hot-item, .hot-proposal, .catalog .item {
+        margin-right: 3%;
+        width: 30%;
+    }
+
+    .hot-item .article-picture, .hot-proposal > .article-picture, .catalog .item .article-picture  {
+        margin-bottom: 2%;
+        width: 100%;
+        height: auto;
+    }
+
+    .hot-item .article-picture img, .catalog .item .article-picture img  {
+        width: 100%;
+    }
+
+    #catalog-fabric-section .type-of-corset {
+        width: 30%;
+    }
+
+    #catalog-fabric-section .types-of-corset img {
+        width: 50%;
+    }
+
+    .fabrics-content, .main-catalog-content {
+        float: none;
+    }
+
+     #catalog-section .item,  #catalog-fabric-section .item {
+        margin-right: 3%;
+        margin-bottom: 5%;
+        width: 30%;
+    }
+
+    #catalog-section .item .article-picture, #catalog-fabric-section .item .article-picture {
+        height: auto;
+    }
+
+
+    #catalog-section .present .sertificate {
+        margin-bottom: 35px;
+    }
+
+    aside {
+        float: none;
+        width: 100%;
+    }
+
+    aside li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    .main-catalog-selection, .fabrics-selection, .main-catalog-content, .fabrics-content {
+        float: none;
+    }
+
+    #useful-information-section .article-preview {
+        margin-right: 3%;
+        margin-bottom: 5%;
+        width: 30%;
+    }
+
+    #useful-information-section .article-preview:nth-child(2) {
+        top: 0;
+    }
+
+    #useful-information-section .article-preview .article-picture {
+        height: auto;
+    }
+
+    #useful-information-section .article-preview img {
+        width: 100%;
+    }
+
+    #make-order-section .order-step {
+       width: 30%;
+       margin-right: 3%;
+    }
+
+    #make-order-section .step-time {   
+      padding: 70px 10px 0;
+    }
+
+    #make-order-section .order-steps:before {
+       left: 33%; 
+       width: 30%;
+  }
+
+    #make-order-section .order-step.step-payment h1:before {
+        top: -55%;
+        width: 21%;
+        background-size: contain;
+    }
+
+    #make-order-section .order-step.step-time h1:before {
+        top: 0;
+        width: 20%;
+        background-size: contain;
+    }
+
+    #make-order-section .order-step.step-time h1 {
+        top: -26px;
+        margin-bottom: 1.9%;
+    }
+
+    #make-order-section .order-step.step-delivery h1:before {
+        width: 18%;
+        background-size: contain;
+    }
+
+    #make-order-section .order-step h1 {
+       position: relative;
+       margin-bottom: 11%;
+       padding-left: 25%;
+       font-size: 26px;
+    }
+
+    #make-order-section .order-step:last-child {
+        margin-right: 0;
+    }
+
+    #card-product-photo, .card-fabric-section #card-product-photo {
+        width: 350px;
+        height: 434px;
+    }
+
+    .card-product-section .item {
+        width: 22.5%;
+        margin-right: 2%;
+    }
+
+    .card-product-section .item:last-child {
+        margin-right: 0;
+    }
+
+    .card-product-section .item .article-picture {
+        height: auto;
+    }
+
+    .card-product-section  .item .order {
+        text-align: center;
+    }
+
+    .card-product-section .item .price {
+        padding-top: 10px;
+    }
+
+    .card-product-section .item .price span {
+        font-size: 18px;
+    }
+
+     .card-product-section .item .make-order {
+        font-size: 12px;
+     }
+
+    #catalog-fabric-section .be-designer-title-image h1 {
+        top: 30px;
+        font-size: 33px;
+    }
+
+   .card-fabric-section .card-model-picture {
+        width: 33%;
+   }
+
+   .card-fabric-section .card-model-picture-description {
+        height: 55px;
+   }
+
+   #cart-form .delivery, #cart-form .payment {
+       width: 49%;
+   }
+
+   #cart-form .delivery {
+       margin-right: 2%;
+   }
+
+}
+
+@media (max-width: 1024px) {
+
+	.main-menu li {
+        padding: 10px 25px;
+    }
+
+	.advantages .article-content .btn {
+        position: relative;
+    }
+
+    .promo .promo-text {
+        position: relative;
+        width: 100%;    	
+    }
+
+    .promo .promo-text div {    	
+        display: inline-block;
+        margin-bottom: 0;
+    }
+
+    .promo .promo-title {
+        margin-right: 30px;    	
+    }
+
+    .promo .btn {
+        position: absolute;
+        top: -200px;
+        left: 30px;
+        margin: 0;
+        padding: 15px 30px 15px 20px;
+        font-size: 16px;
+        width: 200px;
+    }
+
+    .promo .btn::after {
+        right: 15px;
+        width: 8px;
+        height: 8px;
+        margin-top: -5px;
+    }
+
+    #promo-slider-controls {
+        margin-left: -250px;
+    }
+
+    .about-us-background {
+        bottom: 55px;
+    }
+
+    .advantages .container {
+       padding-left: 15px;
+    }
+
+    .advantages-background {
+        bottom: 80px;
+    }
+
+    .advantages .article-picture {
+       margin-right: 20px;
+       margin-bottom: 20px;
+       width: 370px;
+    }
+
+     .advantages .article-picture img {
+        width: 100%;
+     }
+
+    .hot-offers .hot-item h1 {
+       font-size: 30px;
+    }
+
+    .hot-offers .hot-proposal h1 {
+        text-align: left; 
+    }
+
+    .hot-offers .hot-proposal .btn {
+        margin-left: 0;
+    }
+
+    .catalog .item .price span, #catalog-section .item .price span, #catalog-fabric-section .item .price span {
+        font-size: 22px;
+    }
+
+    .item {
+        padding: 10px 0px 40px 10px;
+    }
+
+    .item .article-picture, .item .item-title, .item .item-description {
+        padding-right: 10px;
+    }
+
+    .catalog .item .price, #catalog-section .item .price, #catalog-fabric-section .item .price, .card-product-section .item .price {
+        padding: 5px 0;
+    }
+
+   .catalog .item .make-order-container {
+        padding: 10px 10px 5px;
+    }
+
+    .useful-information .container article {
+    	float: none;
+    	margin-bottom: 35px;
+    	width: 100%;
+    }
+
+    .useful-information .be-designer {
+        padding: 45px 20px 55px;
+    }
+
+    .be-designer {
+        position: relative;
+    }
+
+    .be-designer .article-picture {
+        float: left;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-right: 20px;
+        width: 350px;
+        height: 350px;        
+    }
+
+    .be-designer .article-picture img {
+       height: 100%;
+    }
+
+    .useful-information .inspiration {
+        position: relative;
+        padding: 45px 20px 55px;
+    }
+
+    .useful-information .inspiration h1 {
+        position: relative;
+        top: 0;
+    }
+
+    .inspiration .article-picture {
+    	float: right;
+        position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 380px;
+        margin-left: 20px;
+    }
+
+    #catalog-fabric-section .type-of-corset-title {
+      font-size: 20px;
+      line-height: 28px;
+    }  
+
+    #useful-information-section .article-preview h1 {
+        font-size: 30px;
+    }
+
+    #useful-information-section .article-preview h1:first-letter, .article-preview span {
+        font-size: 40px;
+    }
+
+    .care .article-picture, .harmful-or-not .article-picture, .how-to-men .article-picture  {
+        width: 450px;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .care .article-picture img, .harmful-or-not .article-picture img, .how-to-men .article-picture img {
+        width: 100%;
+    }
+
+    #make-order-section .order-step {
+       width: 32%;
+       margin-right: 1%;
+    }
+
+    #make-order-section .order-steps:before {
+       left: 33%; 
+       width: 32%;
+  }
+
+    #make-order-section .measures .article-picture {
+        margin-right: 40px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .card-product-add .btn:first-child {
+        margin-bottom: 15px;
+    }
+
+    .card-product-section-picture {
+        margin-bottom: 50px;
+    }
+
+    .card-product-section .order {
+        padding-right: 0;
+    }
+
+
+    .card-fabric-section .card-model-picture-description {
+        height: 65px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .main-menu li {
+        padding: 10px 19px;
+    }
+
+     #modal-form {
+      margin: 0;      
+      width:80%;
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+	.article-preview:nth-child(2) {
+        top: 0;
+    }
+
+	.useful-inf .article-picture {
+		width: 100%;
+		float: none;
+		margin-left: 0;
+		margin-right: 0;
+     }
+
+    .care .article-picture img, .harmful-or-not .article-picture img, .how-to-men .article-picture img {
+        width: auto;    
+    }
+
+
+	.suitable-dress .content div:first-child > p {
+       padding-top: 0;
+     }
+
+  	.suitable-dress .content div:first-child > img {
+       margin-bottom: 20px;
+     }
+
+    .suitable-dress .content div:nth-child(2) > h3 {
+       padding-top: 0;
+     }
+
+    .suitable-dress .content div:nth-child(2) .article-picture {
+       margin-bottom: 30px;
+     }
+
+    .my-corsets-better .content .container > div:nth-child(2) {
+       margin-bottom: 0;
+    }
+
+    .my-corsets-better .content .container > div:nth-child(2) > .article-picture {
+       margin-left: 0;
+    }
+
+    .my-corsets-better .content .container > div:nth-child(2) > h3 {
+       padding-top: 0;
+    }
+
+    .my-corsets-better .content .container > div:nth-child(3) > .article-picture {
+       margin-top: 0;
+    }
+
+    #catalog-fabric-section .be-designer-title-image h1 {
+        top: 15px;
+        font-size: 28px;
+    }
+
+    #make-order-section .order-steps:before {
+        background: transparent;
+    }
+
+    #make-order-section .step-time {
+      background: #f8f8f8;
+      padding: 70px 30px 40px;
+    }
+
+    #make-order-section .order-step, #make-order-section .order-step:last-child {
+        float: none;
+        width: 500px;
+        margin: 0 auto 65px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #make-order-section .order-step.step-time h1:before {
+        top: -26px;
+    }
+
+    #make-order-section .type-of-corset-article-picture {
+      margin-bottom: 40px;
+     }
+
+    #make-order-section .choose-fabric .article-picture {
+      margin-right: 40px;  
+    }
+
+    #contacts-section .feedback, #make-order-section .make-order, #cart-form .cart-questionnaire {
+       width: 700px;
+    }
+
+    #catalog-section .catalog-title-image {
+        display: none;
+    }
+
+    .card-product-section-content > div {
+        float: none;
+        margin: 0 auto 50px;
+    }
+
+    .card-product-text {
+        width: 100%;
+    }
+
+    .card-fabric-section .card-model-picture {
+        width: 150px;
+    }
+
+    .card-fabric-section .card-model-picture-description {
+        height: 35px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .main-menu li {
+        padding: 10px 13px;
+    }
+
+	.main-header .details .left-col, .main-header .details .right-col {
+		float: none;
+	}
+
+	.main-header .details .left-col {
+		margin-bottom: 20px;
+	}
+
+    .main-footer .social, .main-footer .our-phones {
+        padding-left: 10px;
+    }
+
+    #promo-slider-controls {
+     	display: none;
+    }
+
+    .about-us .article-picture {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+	.advantages .article-picture {
+        width: 445px;
+        float: none;
+    }
+
+    .advantages-background {
+        bottom: 60px;
+    }
+
+    .hot-offers .hot-item h1 {
+       font-size: 24px;
+    }
+
+    .be-designer .article-picture {
+        float: none;
+        margin-bottom: 25px;
+        width: 415px;
+        height: 415px;        
+    }
+
+    .be-designer .article-picture img {
+       height: 100%;
+    }
+
+    .be-designer-load-more {
+        position: relative;
+        top: 0;
+        left: 0;        
+    }
+
+    .inspiration .article-picture {
+        float: none;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    #review-slider {
+        width: 620px;
+    }
+
+    #catalog-section aside .type-of-corset-selection li  {
+        padding: 5px;
+    }
+
+    #catalog-section aside ul.type-of-corset-selection {
+        margin-bottom: 5px;
+    }
+
+    #catalog-fabric-section .container > p:first-of-type {
+        margin-bottom: 35px;
+    }
+
+    #catalog-fabric-section .be-designer-title-image h1 {
+        top: 10px;
+        font-size: 25px;
+    }
+
+    #catalog-fabric-section .type-of-corset-title {
+        height: 90px;
+    }
+
+    #useful-information-section .container > p {
+        margin-bottom: 30px;
+    }  
+
+    #useful-information-section .article-preview h1 {
+       font-size: 25px;
+    }
+
+    #useful-information-section .article-preview h1:first-letter, .article-preview span {
+        font-size: 30px;
+    }
+
+    .cart-item > div {
+        padding-right: 10px;
+    }
+
+    .cart-item-price span, .cart-item-total-price span {
+        font-size: 20px;
+    }
+
+    .cart-item-description {
+        line-height: 18px;
+    }
+
+    .cart-item-details > div > div {
+        padding-bottom: 5px;
+    }
+
+    .cart-2 .cart-item-price {
+        padding-right: 20px;
+    }
+
+    #cart-form .delivery-and-payment h1 {
+        font-size: 28px;
+    }
+
+    .card-product-section .item {
+        width: 270px;
+        margin-right: 25px;
+    }
+
+    .card-product-section .item .article-picture {
+        height: 314px;
+    }
+}
+
+@media (max-width: 640px) {
+
+
+    .main-header .right-col .social {
+        display: none;
+    }
+
+    .main-menu {
+        margin-bottom: 10px;
+        background: #fff;
+        color: #222;
+    }
+
+    .main-menu li {        
+        padding: 8px;
+        border: none;
+    }
+
+    .main-menu li.current {
+        background: none;
+        border-bottom: 1px solid #222;
+    }
+
+    .main-menu li:hover {
+        background: none;        
+    }
+
+    .main-menu a {        
+        font-size: 14px;
+        text-transform: none;
+        color: #222;
+    }
+
+    .main-menu a:hover {
+        padding-bottom: 8px;
+        border-bottom: 1px solid #222;
+    }
+
+    .main-footer .contacts > div > div {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+    .main-footer .write-us, .main-footer .our-phones {
+        text-align: center;
+    }
+
+    .main-footer .social {
+        padding-left: 0;
+    }
+
+	.promo .btn {
+	    left: 10px;
+	    top: -170px;
+    }
+
+    #review-slider {
+        width: 480px;
+    }
+
+    .item .make-order-container {
+        padding: 5px;
+    }
+
+    .hot-offers-background {
+        bottom: 170px;
+    }
+
+    .hot-offers .hot-item, .hot-offers .hot-proposal  {
+        float: none;
+        width: 370px;
+        height: auto;
+        margin: 0 auto 35px;
+    }
+
+    .hot-offers .hot-proposal {
+        top: 0;
+    }
+
+    .hot-offers .hot-item h1 {
+        font-size: 35px;
+    }
+
+    #catalog-fabric-section .be-designer-title-image h1 {
+      top: 10px;
+      font-size: 20px;
+    }
+
+    #catalog-fabric-section .types-of-corset { 
+      margin-bottom: 30px;
+    }
+
+    #catalog-fabric-section .type-of-corser {
+        margin-right: 3%;
+    }
+
+    #catalog-fabric-section .type-of-corset-title {        
+        height: auto;
+        font-size: 16px;
+        line-height: 20px;
+    }  
+
+    #useful-information-section .article-preview,  #useful-information-section .article-preview:last-child {
+        float: none;
+        width: 320px;
+        margin: 0 auto 45px;
+    }
+
+
+    #useful-information-section .article-preview h1:first-letter, .article-preview span {
+        font-size: 35px;
+    }
+
+    #make-order-section .order-step {
+        margin-bottom: 20px;
+    }
+
+    #make-order-section .step-time {
+        margin-bottom: 0;
+    }
+
+    #make-order-section .article-picture {
+    	float: none;
+    }
+
+    #make-order-section .type-of-corset-article-picture {
+        width: 30%;
+        margin-right: 3%;
+    }
+
+    #make-order-section .measures .article-picture {
+        width: 40%;
+        margin: 0 auto 35px;
+    }
+
+    #make-order-section .measures .article-picture img {
+        width: 100%;
+    }
+
+    #make-order-section .choose-fabric p:first-of-type {
+       padding-top: 20px;
+    }
+
+    #contacts-section .map {
+    	float: none;   
+        margin-left: 0;
+        margin-bottom: 25px;
+        width: 100%;
+        height: 200px;
+    }
+
+    #contacts-section .feedback, #make-order-section .make-order, #cart-form .cart-questionnaire {
+        width: 100%;
+    }
+
+    #contacts-section .feedback li, #make-order-section .make-order li, #cart-form .cart-questionnaire {
+    	float: none;
+        width: 100%;
+    }
+
+    .cart-content, .cart-content > div > div {
+        display: block;
+        border: none;
+    }
+
+    .cart-content-th {
+        display: none;
+    }
+
+    .cart-item-picture {
+        width: 115px;
+        margin-right: 15px;
+    }
+
+    .cart-content > div > div {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .cart-total-price {
+        border-top: 1px solid #e1e1e1;
+    }
+
+    .cart-2 .cart-item-description {
+        margin-right: 60px;
+    }
+
+    .cart-item-picture {
+        margin-bottom: 0;
+        padding: 0;
+        width: 50%;
+        height: auto;        
+    }
+
+    .cart-item-picture img {
+        width: 100%;
+        height: auto;
+    }
+
+    .cart-item-description {
+        padding: 10px 0;
+    }
+
+    #cart-form .delivery-and-payment h1 {
+        font-size: 25px;
+    }
+
+    .card-product-section .item {
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .card-product-section .item .article-picture {
+        height: auto;
+    }
+
+    .card-product-section  .item .order {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+	.main-header .phone-us,.main-header .basket {
+		float: left;
+	}
+
+	#nav-toggle {
+	    float: right;
+	    display: block;
+        position: relative;
+        top: -10px;
+        padding: 0;    
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        border: 2px solid #222;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #nav-toggle span {
+        display: block;
+        position: absolute;
+        top: 16px;
+        left: 5px;
+        right: 5px;
+        height: 2px;
+        background: #222;
+    }
+    
+    #nav-toggle span:before, #nav-toggle span:after {
+        content: "";
+        position: absolute;
+        display: block;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: #222;
+    }
+
+    #nav-toggle span:before {
+        top: -8px;
+    }
+
+    #nav-toggle span:after {
+        bottom: -8px;
+    }
+
+	.main-menu {
+		display: none;
+	}
+
+    #modal-form input {
+        width: 90%;
+    }
+
+	.promo .promo-text {
+		padding-top: 70px;
+	}
+
+	.promo .promo-text div {    	
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .promo .btn {
+	    left: 50%;
+	    margin-left: -100px;
+	    top: 0px;
+    }
+
+    .about-us .article-picture {
+    	float: none;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    #review-slider {
+        width: 420px;
+    }
+
+    .be-designer .article-picture {
+    	width: 100%;
+    }
+
+    .main-footer .our-phones {
+    	padding-left: 0;
+    }
+
+    .useful-inf .article-picture {
+        height: auto;
+    }
+
+    .useful-inf .article-picture img {
+		width: 100%;
+        height: auto;
+    }
+
+    .catalog .item, .catalog .item:last-child {
+        float: none;
+        width: 395px;
+        margin: 0 auto 40px;
+    }
+
+    .catalog .item .article-picture {
+       margin: 0 auto 20px;
+    }
+
+    .catalog .item .article-picture img {
+        width: auto;
+    }
+
+    .item .make-order-container {        
+        padding: 10px 20px 5px;
+    }
+
+   .card-product-section .make-order-container, .card-fabric-section .make-order-container {
+       padding: 10px 10px 5px;
+    }
+
+   #catalog-section .item, #catalog-section .item:last-child {
+        float: none;
+        width: 270px;
+        margin: 0 auto 40px;
+    }
+
+    #catalog-fabric-section .item, #catalog-fabric-section .item:last-child {
+        float: none;
+        width: 290px;
+        margin: 0 auto 40px;
+    }
+
+    #catalog-fabric-section .item .article-picture, #catalog-fabric-section .item .article-picture {
+        height: auto;
+    }
+  
+    #catalog-fabric-section .be-designer-title-image h1 {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        font-size: 30px;
+        color: #222;
+    }
+
+    #make-order-section .order-step {
+        margin-bottom: 25px;
+        width: 100%;
+    }
+
+    #make-order-section .step-time {
+        margin-bottom: 0;
+    }
+
+    #make-order-section .order-step:last-child {
+        margin-bottom: 45px;
+        width: 100%;
+    }
+
+    #make-order-section .types-of-corset .type-of-corset-title {
+        font-size: 16px;
+    }
+
+    #make-order-section .choose-fabric img {
+    	width: auto;
+    }
+
+    #card-product-photo, .card-fabric-section #card-product-photo {
+        width: 250px;
+        height: 275px;
+    }
+
+    .card-fabric-section .card-model-picture {
+        width: 33%;
+    }
+
+    .card-fabric-section .card-model-picture-description {
+        height: 55px;
+    }
+
+    #cart-form .delivery, #cart-form .payment {
+        width: 100%;
+    }
+
+    #cart-form .delivery {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+
+
+}
+
+@media (max-width: 440px) {
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    body, p {
+        font-size: 14px;
+    } 
+
+    p {
+        line-height: 21px; 
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .breadcrumbs {
+        display: none;
+    }
+
+    .left-col, .right-col {
+        float: none;
+    }
+
+    .main-header .top {
+        background: #fff;
+        color: #222;
+    }
+
+    .main-header .top input {
+        border-color: #222;
+        color: #222;
+    }
+
+    .main-header .top a {
+        display: block;
+        margin-bottom: 10px;
+        color: #222;
+    }
+
+    .main-header .top form::before {
+        top: 0;
+        background: url(../images/search-icon_mobile.png);
+    }
+
+    .main-header .details .main-logo, .main-header .details .our-name, .main-header .right-col .phone-us {
+        display: none;
+    }
+
+    .main-header .right-col > div {
+        padding: 0 10px;
+    }
+
+    .main-header .details {
+        margin-bottom: 10px;
+    }
+
+    .main-header .basket .basket-dropdown {
+        left: 0;
+    }
+
+    #nav-toggle {
+        right: 20px;
+    }
+
+    .main-menu li {        
+        padding: 5px;
+    }
+
+    .main-menu a:hover {
+        padding-bottom: 5px;
+    }
+
+    #modal-form {        
+        padding: 60px 5px 25px;
+        height: auto;
+    }
+
+    #modal-form p {
+        margin-bottom: 15px;
+    }
+
+    #callback-form button {
+        margin-top: 0;
+    }
+
+    .promo .promo-text .promo-title {
+        font-size: 44px;
+        margin-bottom: 10px;
+    }
+
+    .promo  .promo-text .promo-logo {
+       margin-bottom: 0px;
+    }
+
+    .promo .promo-text .promo-slogan {
+        display: none;      
+    }
+
+    #promo-slider {
+        margin-bottom: 20px;
+    }
+
+    .about-us .article-picture {
+        height: auto;
+    }
+
+    .about-us .article-picture img {
+        width: 100%;
+    }
+
+    .about-us .article-content {
+        padding-top: 10px;
+    }
+
+    .advantages .article-picture, .advantages .article-picture img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hot-offers .container .hot-item, .hot-offers .container .hot-item .article-picture,
+    .hot-offers .container .article-picture .hot-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .catalog .item, .catalog .item:last-child, .catalog .item .article-picture, .catalog .item .article-picture img {
+        width: 100%;
+        height: auto;
+    }
+
+    .useful-information .container article {
+        border: none;
+    }
+
+    .useful-information .container article .article-picture {
+        width: 100%;
+        height: auto;
+    }
+
+    .useful-information .container article img {
+        width: 100%;
+    }
+
+    .useful-information .be-designer, .useful-information .where-to-use, 
+    .useful-information .inspiration   {
+        padding: 0 0 10px 0;
+    }
+
+    .useful-information .where-to-use {
+        background: none;
+    }
+
+    span.where-to-use-float {
+       display: inline;
+    }
+
+    .where-to-use-float {
+       padding-right: 0;
+    }
+
+
+    #review-slider {
+        width: 100%;
+    }
+
+    #catalog-section .present .sertificate {
+        width: 100%;
+    }
+
+    #catalog-section .present .sertificate img {
+        width: 100%;
+    }
+
+    #catalog-fabric-section .be-designer-title-image h1 {
+        font-size: 30px;
+    }
+
+    #catalog-fabric-section .type-of-corset {
+        float: left;
+    }
+
+    #catalog-fabric-section .type-of-corset-title {
+        margin-bottom: 10px;
+        text-transform: none;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #catalog-fabric-section .type-of-corset .price {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    #catalog-fabric-section .type-of-corset .price span {
+        font-size: 18px;
+    }
+
+
+    #useful-information-section .article-previews .item-row .article-preview {
+        float: none;
+        width: 100%; 
+        margin-bottom: 30px;       
+    }
+
+    #make-order-section .order-step {
+        width: 100%;  
+        padding-bottom: 10px;
+    }
+
+    #make-order-section .container > p:first-of-type {
+        margin-bottom: 50px;
+    }
+
+    #make-order-section .order-steps {
+        margin-bottom: 0;
+    }
+
+    #make-order-section .type-of-corset-article-picture {
+        float: left;
+    }
+
+    #make-order-section .type-of-corset-title {
+        margin-bottom: 10px;
+        text-transform: none;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #make-order-section .choose-fabric {
+        margin-bottom: 30px;
+    }
+
+    #make-order-section .make-order div:last-child,
+    #contacts-section .feedback div:last-child {
+        text-align: left;
+    }
+
+    #contacts-section .addresses {
+        margin-bottom: 70px;
+    }
+
+    #cart-form .cart-questionnaire li {
+        width: 100%;
+    }
+
+    .cart-2 .cart-item-description {
+        margin-right: 80px;
+    }
+
+    #card-product-slider ul {
+        float: left;        
+    }
+
+    #card-product-slider li {
+        width: 100px;
+    }
+
+    #card-product-photo, .card-fabric-section #card-product-photo {
+        float: left;        
+        width: 180px;
+        height: 200px;
+    }
+
+    .card-fabric-section #card-product-slider li {
+        height: 100px;
+    }
+
+    .card-product-section .item, .card-product-section .item:last-child {
+        width: 270px;
+        margin: 0 auto 25px;
+    }
+
+    .card-product-section .item .article-picture {
+        height: 314px;
+    }
+
+    .card-product-section .item .make-order-container {
+        display: block;       
+        float: right; 
+    }
+
+
+    .card-fabric-section .card-model-picture {
+        float: left;
+    }
+
+    .card-fabric-section .card-model-picture-description {
+        height: 65px;
+    }
+
+
+}
+
+@media (max-width: 420px) {
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
